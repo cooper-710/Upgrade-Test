@@ -787,22 +787,22 @@ document.getElementById("cameraSelect").addEventListener("change", (e) => {
       break;
     case "pitcher":
       camera.position.set(0, 6.0, 2);  // slightly higher pitcher view
-      camera.lookAt(0, 2.5, -60.5);
+      camera.lookAt(0, 2, -60.5);
       break;
     case "rhh":
-      camera.position.set(1.5, 6.0, -65);  // higher right-handed hitter view
+      camera.position.set(1.5, 4.5.0, -64);  // higher right-handed hitter view
       camera.lookAt(0, 5, 0);           // look at pitcher
       break;
     case "lhh":
-      camera.position.set(-1.5, 6.0, -65); // higher left-handed hitter view
+      camera.position.set(-1.5, 4.5, -64); // higher left-handed hitter view
       camera.lookAt(0, 5, 0);           // look at pitcher
       break;
     case "1b":
-      camera.position.set(20, 5, -30);
+      camera.position.set(30, 4.5, -30);
       camera.lookAt(0, 5, -30);
       break;
     case "3b":
-      camera.position.set(-20, 5, -30);
+      camera.position.set(-30, 4.5, -30);
       camera.lookAt(0, 5, -30);
       break;
   }
